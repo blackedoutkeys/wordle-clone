@@ -24,7 +24,7 @@ export default function Row({ guess, currentGuess }) {
           </div>
         ))}
         {[...Array(5 - letters.length)].map((_, i) => (
-          <div key={i} className='empty'></div>
+          <div key={i}></div>
         ))}
       </div>
     );
